@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "f086b810-c735-484a-bba8-0bb588e56f9c",
+		"name": "Stock Crypto Services",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2400190"
+	},
+	"item": [
+		{
+			"name": "Stock",
+			"item": [
+				{
+					"name": "Stock Price",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/stock/price?input=AAPL&type=symbol",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"stock",
+								"price"
+							],
+							"query": [
+								{
+									"key": "input",
+									"value": "AAPL"
+								},
+								{
+									"key": "type",
+									"value": "symbol"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Stock Price By Company Name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/stock/price?input=facebook&type=company",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"stock",
+								"price"
+							],
+							"query": [
+								{
+									"key": "input",
+									"value": "facebook"
+								},
+								{
+									"key": "type",
+									"value": "company"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Crypto",
+			"item": [
+				{
+					"name": "Crypto Price",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:3000/crypto/price?symbol=BTC",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"crypto",
+								"price"
+							],
+							"query": [
+								{
+									"key": "symbol",
+									"value": "BTC"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
