@@ -33,7 +33,7 @@ this is a sample stock crypto api that uses the api factory pattern to get the s
 
 - [✅] Api factory pattern
 - [✅] Api Documentation (Swagger) (http://localhost:3000/documents)
-- [✅] Api Documentation (Postman)
+- [✅] Api Documentation (Postman) (File: Sample_stock_crypto_api.json)
 - [✅] Stock API
 - [✅] Crypto API
 - [✅] Cache
@@ -82,4 +82,5 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](LICENSE).
+
 # stock-crypto-service
